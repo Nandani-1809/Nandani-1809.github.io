@@ -1,7 +1,118 @@
-remote_theme: pages-themes/time-machine@0.2.0
-plugins:
-- jekyll-remote-theme
-title: [YOUR NAME]
-description: [Turning Datas into insights]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Nandani  Patel | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+        header {
+            background: #84c3e7;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #7fc0e9;
+            margin-bottom: 20px;
+        }
+        .skills, .projects {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Nandani Nareshkumar Patel </h1>
+        <p>B.Tech Student | CSE student | Charusat University </p>
+    </header>
 
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Hii My name is Nandani Patel. I am a B.Tech  Computer Science & engineering student.Welcome to My Portfolio. where I showcase my skills in C programming, IoT development. I love learning new skills and improving myself every day.
+        </p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="card">C Programming</div>
+            <div class="card"> Basic HTML</div>
+            <div class="card">ESP32</div>
+            <div class="card">IoT Based Projects</div>
+            <div class="card">Git & GitHub</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>IoT Health Monitoring System</h3>
+                <p>Monitors body parameters and sends data to cloud dashboards.</p>
+            </div>
+            <div class="card">
+                <h3>Digital Doodle App</h3>
+                <p>A multi-touch drawing app with simple UI.</p>
+            </div>
+            <div class="card">
+                <h3>Talk To Me App</h3>
+                <p>Text-to-speech application with multiple features.</p>
+            </div>
+            <div class="card">
+                <h3>ESP32 RGB LED Controller</h3>
+                <p>Non-blocking color transitions and smooth animations.</p>
+            </div>
+            <div class="card">
+                <h3>Notepad Using C and Win32 API</h3>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact Me </h2>
+        <p>Email:nandanipatel83989@gmail.com</p>
+        <p>GitHub:https://github.com/Nandani-1809</p>
+        <p>LinkedIn :Nandani Patel </p>
+    </section>
+
+    <footer>
+        © 2025 Patel Nandani | All Rights Reserved
+    </footer>
+</body>
+</html>
 
